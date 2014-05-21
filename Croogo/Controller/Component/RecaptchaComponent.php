@@ -1,8 +1,9 @@
 <?php
 
 namespace Croogo\Croogo\Controller\Component;
-App::uses('Component', 'Controller');
 
+use Cake\Controller\Component;
+use reCAPTCHA you must get an API key from <a href='http://recaptcha.net/api/getkey'>http://recaptcha.net/api/getkey</a>");
 /**
  * Recaptcha Component
  *
@@ -60,8 +61,7 @@ class RecaptchaComponent extends Component {
 	  */
 	public function recaptcha_check_answer($privkey, $remoteip, $challenge, $response, $extra_params = array()) {
 		if ($privkey == null || $privkey == '') {
-			die ("To use reCAPTCHA you must get an API key from <a href='http://recaptcha.net/api/getkey'>http://recaptcha.net/api/getkey</a>");
-		}
+			die ("To 		}
 
 		if ($remoteip == null || $remoteip == '') {
 			die ("For security reasons, you must pass the remote ip to reCAPTCHA");
