@@ -3,6 +3,7 @@
 /**
  * Dashboard URL
  */
+namespace Croogo\Extensions\Config;
 Configure::write('Croogo.dashboardUrl', array(
 	'admin' => true,
 	'plugin' => 'extensions',

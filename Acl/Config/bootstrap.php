@@ -1,5 +1,6 @@
 <?php
 
+namespace Croogo\Acl\Config;
 if (Configure::read('Site.acl_plugin') == 'Acl') {
 
 	// activate AclFilter component only until after a succesful install

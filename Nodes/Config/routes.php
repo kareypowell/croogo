@@ -1,5 +1,6 @@
 <?php
 
+namespace Croogo\Nodes\Config;
 CroogoRouter::mapResources('Nodes.Nodes', array(
 	'prefix' => '/:api/:prefix/',
 ));

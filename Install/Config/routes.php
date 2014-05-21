@@ -1,5 +1,6 @@
 <?php
 
+namespace Croogo\Install\Config;
 $request = Router::getRequest();
 if (strpos($request->url, 'install') === false) {
 	$url = array('plugin' => 'install', 'controller' => 'install');

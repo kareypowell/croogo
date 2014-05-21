@@ -1,5 +1,6 @@
 <?php
 
+namespace Croogo\Users\Config;
 CroogoRouter::mapResources('Users.Users', array(
 	'prefix' => '/:api/:prefix/',
 ));

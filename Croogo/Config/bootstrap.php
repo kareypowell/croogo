@@ -1,5 +1,6 @@
 <?php
 
+namespace Croogo\Croogo\Config;
 App::uses('CakeLog', 'Log');
 App::uses('CroogoEventManager', 'Croogo.Event');
 App::uses('Croogo', 'Croogo.Lib');

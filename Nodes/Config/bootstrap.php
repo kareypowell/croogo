@@ -1,5 +1,6 @@
 <?php
 
+namespace Croogo\Nodes\Config;
 $cacheConfig = array_merge(
 	Configure::read('Cache.defaultConfig'),
 	array('groups' => array('nodes'))

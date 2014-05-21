@@ -1,5 +1,6 @@
 <?php
 
+namespace Croogo\Users\Config;
 Croogo::hookApiComponent('Users', 'Users.UserApi');
 
 /**
